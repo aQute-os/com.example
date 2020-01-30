@@ -1,0 +1,118 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: com.example.application.run
+Bundle-Version: 1.0.0.202001301006
+Embedded-Runpath: jar/org.apache.felix.framework-6.0.3.jar,jar/biz.aQu
+ te.launcher-5.1.0.jar
+Main-Class: aQute.launcher.pre.EmbeddedLauncher
+
+Name: META-INF/maven/biz.aQute.bnd/biz.aQute.launcher.pre/pom.properti
+ es
+MD5-Digest: Sv9IUcZq2e5urFZUqFhaTQ==
+SHA-Digest: +155JI8XmYicKncYMUWFsMADLUo=
+SHA1-Digest: +155JI8XmYicKncYMUWFsMADLUo=
+
+Name: META-INF/maven/biz.aQute.bnd/biz.aQute.launcher.pre/pom.xml
+MD5-Digest: NA0rWBtu1PooGoKgvJjXEQ==
+SHA-Digest: le0p/jsWSkNIkH7h7QQ1ljpoHPc=
+SHA1-Digest: le0p/jsWSkNIkH7h7QQ1ljpoHPc=
+
+Name: OSGI-OPT/src/aQute/launcher/agent/LauncherAgent.java
+MD5-Digest: 5H/DofLsRUhIiC54QICxfg==
+SHA-Digest: KEjwUgFDhb1o2DaTeZijASexq+I=
+SHA1-Digest: KEjwUgFDhb1o2DaTeZijASexq+I=
+
+Name: OSGI-OPT/src/aQute/launcher/pre/EmbeddedLauncher.java
+MD5-Digest: V53aSm9sTY9KJWwJDNSgwA==
+SHA-Digest: 4ps74v9QBupuWJ4VCJoFx65ilYc=
+SHA1-Digest: 4ps74v9QBupuWJ4VCJoFx65ilYc=
+
+Name: aQute/launcher/agent/LauncherAgent.class
+MD5-Digest: b+k+kbkpBXzECosvbyJlDg==
+SHA-Digest: 0RP8sbTsXo6wO3zPneJ2o5gEX3s=
+SHA1-Digest: 0RP8sbTsXo6wO3zPneJ2o5gEX3s=
+
+Name: aQute/launcher/pre/EmbeddedLauncher$Loader.class
+MD5-Digest: y+nGsaxpIFYSkRLRvNxk1w==
+SHA-Digest: Z9bq6xxEUXRdEeFB36RtgX/2LhU=
+SHA1-Digest: Z9bq6xxEUXRdEeFB36RtgX/2LhU=
+
+Name: aQute/launcher/pre/EmbeddedLauncher.class
+MD5-Digest: ZFmaWG13d5IgNAtZ5dnJrg==
+SHA-Digest: Gdtq8niPS1S0kLhbNlyHq72W6YU=
+SHA1-Digest: Gdtq8niPS1S0kLhbNlyHq72W6YU=
+
+Name: jar/+org.apache.felix.gogo.runtime-1.1.2.jar
+MD5-Digest: c9px/tOmCu1aA0K8axe1Ew==
+SHA-Digest: amUOEVU4SC6hc270lywDZwro7yA=
+SHA1-Digest: amUOEVU4SC6hc270lywDZwro7yA=
+
+Name: jar/biz.aQute.launcher-5.1.0.jar
+MD5-Digest: ousJWgJ2spbqy0TXm7SLtg==
+SHA-Digest: gUdqRCCAO/AFBPvhavLfvoScfv8=
+SHA1-Digest: gUdqRCCAO/AFBPvhavLfvoScfv8=
+
+Name: jar/com.example.eval.api.jar
+MD5-Digest: 6/jc1//v8sjnjmgnLU8D/A==
+SHA-Digest: d2/sfLyEr1Os6OP7Trq81Qt8ow0=
+SHA1-Digest: d2/sfLyEr1Os6OP7Trq81Qt8ow0=
+
+Name: jar/com.example.eval.rhino.provider.jar
+MD5-Digest: 6P87irIbwxYcjXANAM+XmQ==
+SHA-Digest: xf4U6U3IGyM+T8FbKW1tG2W/fLU=
+SHA1-Digest: xf4U6U3IGyM+T8FbKW1tG2W/fLU=
+
+Name: jar/com.example.eval.simple.provider.jar
+MD5-Digest: jbTwegbr/MbWvNm0LqV5qw==
+SHA-Digest: AgwLZz5mf7j6HPZaCWX5i5X8MVc=
+SHA1-Digest: AgwLZz5mf7j6HPZaCWX5i5X8MVc=
+
+Name: jar/org.apache.felix.framework-6.0.3.jar
+MD5-Digest: 5vw+zuJgY13VONypAanVnA==
+SHA-Digest: GNAt1GdgfLYajPd8GEenM6QX2nY=
+SHA1-Digest: GNAt1GdgfLYajPd8GEenM6QX2nY=
+
+Name: jar/org.apache.felix.gogo.command-1.1.0.jar
+MD5-Digest: eRqgZlGiv/jpnaq3HAGs2g==
+SHA-Digest: CTW4gMjxuzRKiUjiwswNDbzG1hc=
+SHA1-Digest: CTW4gMjxuzRKiUjiwswNDbzG1hc=
+
+Name: jar/org.apache.felix.gogo.shell-1.1.2.jar
+MD5-Digest: dJzyBZeq0MoZjBxSNzp+dQ==
+SHA-Digest: RidB/DXgabCdOgZPpxlJMBZqbj4=
+SHA1-Digest: RidB/DXgabCdOgZPpxlJMBZqbj4=
+
+Name: jar/org.apache.felix.scr-2.1.16.jar
+MD5-Digest: gtiywVz0tm4zA0YZNzOnkQ==
+SHA-Digest: 1U2DHdWWRgPBq0vosq3v44ziLCE=
+SHA1-Digest: 1U2DHdWWRgPBq0vosq3v44ziLCE=
+
+Name: jar/org.osgi.util.function-1.1.0.jar
+MD5-Digest: SWoE/XVie7T/SmnFF1QzrQ==
+SHA-Digest: cPnjTp2ZFkc3hQgxbsSgqRS5FZ8=
+SHA1-Digest: cPnjTp2ZFkc3hQgxbsSgqRS5FZ8=
+
+Name: jar/org.osgi.util.promise-1.1.1.jar
+MD5-Digest: 6u7DDQyRZLX+r8U07mqVxw==
+SHA-Digest: +QOUYDGmFHYbkTrcQdVeuMtTpWQ=
+SHA1-Digest: +QOUYDGmFHYbkTrcQdVeuMtTpWQ=
+
+Name: jar/rhino-1.7.12.jar
+MD5-Digest: Cbir1ZAyfv3haSN2kmg2Rg==
+SHA-Digest: FtizcOXdRRPRXuG0tHG5VC68z6E=
+SHA1-Digest: FtizcOXdRRPRXuG0tHG5VC68z6E=
+
+Name: launcher.properties
+MD5-Digest: U0LP2WMPRe8MwHQ4zk/PCw==
+SHA-Digest: DlsNzlO/NhhOtFX8GizsH5ccuyU=
+SHA1-Digest: DlsNzlO/NhhOtFX8GizsH5ccuyU=
+
+Name: start
+MD5-Digest: M3CVZG8yRworZISjKv12fQ==
+SHA-Digest: sD6BZvQCvqWurYIKf6aNEw394xc=
+SHA1-Digest: sD6BZvQCvqWurYIKf6aNEw394xc=
+
+Name: start.bat
+MD5-Digest: AJZB83sCEDoW/2LGzLdGTQ==
+SHA-Digest: NeuZAHfUoVnaDSLq6/7UFpf8ung=
+SHA1-Digest: NeuZAHfUoVnaDSLq6/7UFpf8ung=
+

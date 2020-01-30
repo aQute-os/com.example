@@ -1,0 +1,6 @@
+#
+# com.example.eval.api
+#
+
+-buildpath:  \
+	osgi.annotation

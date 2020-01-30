@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>com.example.playground</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.jdt.core.javabuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>bndtools.core.bndbuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.jdt.core.javanature</nature>
+		<nature>bndtools.core.bndnature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>.bndtools.jareditor.temp</name>
+			<type>2</type>
+			<location>/var/folders/z8/0_lqm23n62s80gq9hwt7zy200000gq/T/BndEditorTempFile4979325895680991543</location>
+		</link>
+	</linkedResources>
+</projectDescription>

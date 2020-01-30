@@ -1,0 +1,10 @@
+buildscript {
+	repositories { 
+		mavenCentral()
+	}
+	dependencies { classpath "biz.aQute.bnd:biz.aQute.bnd.gradle:5.0.0" }
+	def bndPlugin = files(configurations.classpath.files)
+	gradle.rootProject { buildscript { dependencies { classpath bndPlugin } } }
+}
+
+apply plugin: 'biz.aQute.bnd.workspace'

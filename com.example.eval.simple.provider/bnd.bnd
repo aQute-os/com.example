@@ -1,0 +1,21 @@
+#
+# com.example.eval.simple.provider PROVIDER BUNDLE
+#
+
+-include \
+        https://raw.githubusercontent.com/bndtools/bndtools.workspace.min/master/cnf/ext/defaults.bnd,\
+        -extra.bnd
+        
+
+-buildpath: \
+	osgi.annotation,\
+	org.osgi.service.component.annotations,\
+	com.example.eval.api;version=latest,\
+	org.apache.felix.gogo.runtime,\
+	org.osgi.framework
+	
+
+-testpath: \
+	osgi.enroute.junit.wrapper, \
+	osgi.enroute.hamcrest.wrapper
+
