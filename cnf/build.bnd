@@ -1,7 +1,20 @@
 
-Bundle-Version:             1.0.0.${tstamp}
+Bundle-Version:             1.0.0.${tstamp}-SNAPSHOT
 
 -remoteworkspace        true
 -runfw:                 org.apache.felix.framework
 -runee:                 JavaSE-1.8
 
+-plugin.8.nexus: \
+    aQute.bnd.repository.maven.provider.MavenBndRepository; \
+        snapshotUrl = 'https://oss.sonatype.org/content/repositories/snapshots/'; \
+        releaseUrl  = 'https://oss.sonatype.org/service/local/staging/deploy/maven2/'; \
+        noupdateOnRelease=true; \
+        name="Sonatype"
+
+-releaserepo: Sonatype
+
+-groupid: biz.aQute
+-connection-settings: \
+    server;id=https://oss.sonatype.org;username=${env;SONATYPE_USERNAME;};password=${env;SONATYPE_PASSWORD;}, \
+    -bnd
